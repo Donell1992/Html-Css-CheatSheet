@@ -1,10 +1,13 @@
 table,th, td, thead{
-    border: 1px solid rgb(22, 48, 133);
+    border: 1px solid darkblue;
     margin-left: auto;
     margin-right: auto;
+    outline-color: invert;
+    color: white;
 }
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(207, 142, 43);
+    
 }
 h2 {
     text-align: center;
@@ -13,4 +16,7 @@ h2 {
 h1 {
     text-align: center;
     color: darkblue;
+}
+thead {
+color-scheme: dark;
 }
