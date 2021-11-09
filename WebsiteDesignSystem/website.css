@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: rgb(192, 111, 230);
+}
+h1 {
+    color:rgb(206, 189, 38);
+    text-align: center;
+}
+h2{
+    color: rgb(43, 173, 100);
+    text-align: center;
+}
+.colors {
+    border: 2px solid red;
+    color: rgb(189, 182, 182);
+}
+.orange {
+    background-color: rgb(156, 89, 43);
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.green
+{
+    background-color: rgb(22, 73, 6);
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.purple
+{
+    background-color: rgb(247, 0, 255);
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.blue
+{
+    background-color: rgb(20, 35, 165);
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
