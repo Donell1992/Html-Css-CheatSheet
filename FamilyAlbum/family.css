@@ -1,0 +1,11 @@
+
+body {
+    background-color: rgb(147, 188, 224);
+
+}
+#maddie {
+    display: flex;
+
+
+    flex-direction: column;
+    width: 25%;

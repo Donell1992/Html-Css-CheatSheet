@@ -1,0 +1,19 @@
+.biopic {
+    max-width: 25%;
+    max-height: auto;
+    display: block;
+    margin-left: 17.5%;
+    
+}
+body {
+    background-color: rgb(184, 184, 184);
+    color: rgb(121, 74, 18);
+
+}
+header {
+    text-align: center;
+    font-family: sans-serif;
+}
+nav {
+    
+}
