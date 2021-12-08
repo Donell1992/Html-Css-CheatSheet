@@ -1,10 +1,41 @@
-.biopic {
-    max-width: 25%;
-    max-height: auto;
-    display: block;
-    margin-left: 17.5%;
+.container {
+    
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;  
+    justify-content: space-between;
+    height: auto;
     
 }
+img {
+max-width: 100%;
+height: auto;
+       
+}
+.center {
+    max-width: 20%;
+    flex: 1 0;
+}
+.side {
+    max-width: 30%;
+    flex: 2 1;
+}
+@media screen and (max-width: 400px) {
+
+   .container {
+       flex-flow: column wrap;
+       align-items: center;
+       margin-left: 5%;  
+       margin-right: 5%;      
+   }
+  .center, .side {
+      max-width: 100%;
+      max-height: 200px;
+  }
+ 
+
+}
+
 body {
     background-color: rgb(184, 184, 184);
     color: rgb(121, 74, 18);
