@@ -30,9 +30,12 @@ height: auto;
    }
   .center, .side {
       max-width: 100%;
-      max-height: 200px;
+      
   }
- 
+ .side {
+     object-fit: cover;
+     
+ }
 
 }
 
